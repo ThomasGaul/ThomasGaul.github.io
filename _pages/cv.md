@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Shortened CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,54 +11,32 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Cognitive Science, Indiana University Bloomington, 2025
 
-Work experience
+Honors and Awards
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* June 2024: **Murray Austin Goldstone Scholarship**, *Indiana University Cognitive Science*.
+* April 2024: **Outstanding Contribution Award**, *Indiana University Cognitive Science*.
+* April 2023: **Robert J. Glushko Award for Outstanding Research in Cognitive Science**, *Indiana University Cognitive Science*.
+ 
+Experience
+======
+* Fall 2023 - Spring 2025: *Organizer*
+    * Midwest Undergraduate Cognitive Science Conference
+* Spring 2024 - Spring 2025: *Treasurer*
+    * Students of Cognitive Science
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: C++, Python, Wolfram Language, Java, Bash
+* Software: Linux, Mathematica, LaTeX, Inkscape, Adobe Illustrator
 
-Publications
+Recent Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
