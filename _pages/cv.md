@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Shortened CV"
+title: "Cirriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+See full CV [here](http://ThomasGaul.github.io/files/CV.pdf).
 
 Education
 ======
@@ -31,12 +33,3 @@ Skills
 * Programming Languages: C++, Python, Wolfram Language, Java, Bash
 * Software: Linux, Mathematica, LaTeX, Inkscape, Adobe Illustrator
 
-Recent Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
