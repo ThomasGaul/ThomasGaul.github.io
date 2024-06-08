@@ -2,7 +2,7 @@
 title: "Deriving the intrinsic viability constraint of an emergent individual from first principles"
 collection: publications
 permalink: /publication/2024-Viability
-excerpt: "Click on title to see abstract."
+excerpt: ""
 date: 2024-07-22
 status: To appear in
 venue: 'Proceedings of the 2024 Artificial Life Conference'

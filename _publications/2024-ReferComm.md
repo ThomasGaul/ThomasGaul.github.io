@@ -2,7 +2,7 @@
 title: "Cognitive distinctions as a language for cognitive science: Comparing methods of description in a model of referential communication"
 collection: publications
 permalink: /publication/2024-ReferComm
-excerpt: "Click on title to see abstract."
+excerpt: ""
 date: 2024-12-01
 status: In review at
 venue: 'Artificial Life'
