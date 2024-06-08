@@ -33,3 +33,8 @@ Skills
 * Programming Languages: C++, Python, Wolfram Language, Java, Bash
 * Software: Linux, Mathematica, LaTeX, Inkscape, Adobe Illustrator
 
+Publications
+======
+<ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+{% endfor %}</ul>
