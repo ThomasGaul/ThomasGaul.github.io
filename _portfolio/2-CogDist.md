@@ -1,6 +1,6 @@
 ---
 title: "Cognitive Distinctions"
-excerpt: "Developing a more rigorous method of cognitive description, independent of the conceptual frameworks implicit in natural language.<br/><img src='/images/CogDist-Project.png' style='width: 500px'>"
+excerpt: "Developing a more rigorous method of cognitive description, independent of the conceptual frameworks implicit in natural language.<br/><br/><img src='/images/CogDist-Project.png' style='width: 500px'>"
 collection: portfolio
 ---
 
