@@ -6,7 +6,7 @@ date: 2024-07-22
 status: To appear in
 venue: 'Proceedings of the 2024 Artificial Life Conference'
 excerpt: ""
-#slidesurl: URL
+paperdoi: #URL
 paperurl: 'http://ThomasGaul.github.io/files/RealLife1.pdf'
 citation: 'Gaul, T. M. (2024). Autopoiesis in RealLife Euclidean automata. <i>Proceedings of the 2024 Artificial Life Conference</i>. To appear.'
 ---

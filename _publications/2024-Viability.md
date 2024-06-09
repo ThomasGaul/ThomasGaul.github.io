@@ -6,7 +6,7 @@ excerpt: ""
 date: 2024-07-22
 status: To appear in
 venue: 'Proceedings of the 2024 Artificial Life Conference'
-slidesurl: #URL
+paperdoi: #URL
 paperurl: 'http://ThomasGaul.github.io/files/IntrinsicViability1.pdf'
 citation: 'Beer, R. D., and McShaffrey, C. and Gaul, T. M. (2024). Deriving the intrinsic viability constraint of an emergent individual from first principles. <i>Proceedings of the 2024 Artificial Life Conference</i>. To appear.'
 ---

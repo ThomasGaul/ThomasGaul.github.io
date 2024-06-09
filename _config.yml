@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Thomas M. Gaul"
-  pronouns         : "he/him"  
-  bio              : "Undergraduate Cognitive Science Student, Minoring in Microbiology."
+  pronouns         : # "" 
+  bio              : "Undergraduate student studying Cognitive Science and Microbiology at Indiana University | Artificial Life and Theoretical Biology"
   location         : "Bloomington, Indiana"
   employer         : "Indiana University Bloomington"
   uri              : # URL
