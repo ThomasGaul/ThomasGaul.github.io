@@ -7,7 +7,7 @@ date: 2024-07-23
 status: In
 venue: 'ALIFE 2024: Proceedings of the 2024 Artificial Life Conference'
 paperdoi: https://doi.org/10.1162/isal_a_00739
-paperurl: 'http://ThomasGaul.github.io/files/Beer et al - Deriving the intrinsicc viability constraint of an emergent individual from first principles.pdf'
+paperurl: 'http://ThomasGaul.github.io/files/Beer et al - Deriving the intrinsic viability constraint of an emergent individual from first principles.pdf'
 citation: 'Beer, R. D., and McShaffrey, C. and Gaul, T. M. (2024). Deriving the intrinsic viability constraint of an emergent individual from first principles. In <i>ALIFE 2024: Proceedings of the 2024 Artificial Life Conference</i>, pages 192-200. MIT Press.'
 ---
 
