@@ -14,6 +14,13 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+     {% if post.papertype == 'article' %}
+           <p style="font-size: smaller">{{ post.authors }} ({{ post.date | date: "%Y" }}). <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>. <i>{{ post.venue }}</i>, <i>{{ post.volume }}</i>({{ post.issue }}), {{ post.pages }}. {{ post.publisher }}.</p>
+        {% elsif post.papertype == 'conference' %}
+        <p style="font-size: smaller">{{ post.authors }} ({{ post.date | date: "%Y" }}). <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>. In <i>{{ post.venue }}</i>, pages {{ post.pages }}. {{ post.publisher }}.</p>
+        {% elsif post.papertype == 'preprint' %}
+        <p style="font-size: smaller">{{ post.authors }} ({{ post.date | date: "%Y" }}). <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>. {{ post.status }}.</p>
+        {% endif %}
 <!--    <li>
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -35,10 +42,10 @@
     </h3>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-      {% endif %} -->
+      {% endif %}
       {% if post.venue %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.citation }} <a href="{{ base_path }}{{ post.url }}" rel="permalink" >Read</a>.</p>
       {% endif %}
-    <!--    </li> -->
+        </li> -->
  </article>
 </div>

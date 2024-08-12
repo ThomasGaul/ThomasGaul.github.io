@@ -47,18 +47,42 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.paperdoi %}
-          <p style="font-size: smaller">{{ page.citation }}<br /><a href="{{ page.paperurl }}">Read</a> | <a href="{{ page.paperdoi }}">DOI</a></p>
+	{% if page.authors and page.date and page.venue and page.volume and page.issue and page.pages and page.publisher and page.paperdoi %}
+	<p style="font-size: smaller">{{ page.authors }} ({{ page.date | date: "%Y" }}). {{ page.title }}. <i>{{ page.venue }}</i>, <i>{{ page.volume }}</i>({{ page.issue }}), {{ page.pages }}. {{ page.publisher }}. doi: {{ page.paperdoi }}</p>
+	{% elsif page.authors and page.date and page.status and page.editors and page.venue and page.pages and page.publisher and page.paperdoi %}
+	<p style="font-size: smaller">{{ page.authors }} ({{ page.date | date: "%Y" }}). {{ page.title}}. {{ page.status }} {{ page.editors }} (Eds.), <i>{{ page.venue }}</i>, pages {{ page.pages }}. {{page.publisher }}.</p>
+	{% elsif page.authors and page.date and page.status %}
+	<p style="font-size: smaller">{{ page.authors }} ({{ page.date | date: "%Y" }}). {{ page.title }}.  {{ page.status }}.</p>
+	{% endif %}
+
+	{% if page.paperurl and page.paperdoi %}
+	<p style="font-size: smaller"><a href="{{ page.paperurl }}">PDF</a> | <a href="https://doi.org/{{ page.paperdoi }}">DOI</a></p>
+	{% elsif page.paperurl %}
+	<p style="font-size: smaller"><a href="{{ page.paperurl }}">PDF</a></p>
+	{% elsif page.paperdoi %}
+	  <p style="font-size: smaller"><a href="https://doi.org/{{ page.paperdoi }}">DOI</a></p>
+	{% endif %}
+<!--
+	{% if page.fullcitation and page.paperurl and page.paperdoi %}
+	<p style="font-size: smaller">{{ page.fullcitation }} doi: {{ page.paperdoi }}<br /><a href="{ page.paperurl }}">PDF</a> | <a href="https://doi.org/{{ page.paperdoi }}">DOI</a></p>
+	{% elsif page.fullcitation and page.paperurl %}
+          <p style="font-size: smaller">{{ page.fullcitation }}<br /><a href="{{ page.paperurl }}">PDF</a></p>
+        {% elsif page.fullcitation and page.paperdoi %}
+	<p style="font-size: smaller">{{ page.fullcitation }} doi: {{ page.paperdoi }}<br /><a href="https://doi.org/{{ page.paperdoi }}">DOI</a></p>
+        {% elsif page.fullcitation %}
+	<p style="font-size: smaller">{{ page.fullcitation }}</p>
+	{% elsif page.citation and page.paperurl and page.paperdoi %}
+	<p style="font-size: smaller">{{ page.citation }} doi: {{ page.paperdoi }}<br /><a href="{{ page.paperurl }}">PDF</a> | <a href="https://doi.org/{{ page.paperdoi }}">DOI</a></p>
         {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">{{ page.citation }}<br /><a href="{{ page.paperurl }}">Read</a></p>
+          <p style="font-size: smaller">{{ page.citation }}<br /><a href="{{ page.paperurl }}">PDF</a></p>
         {% elsif page.citation and page.paperdoi %}
-          <p style="font-size: smaller">{{ page.citation }}<br /><a href="{{ page.paperdoi }}">DOI</a></p>
+	<p style="font-size: smaller">{{ page.citation }} doi: {{ page.paperdoi }}<br /><a href="https://doi.org/{{ page.paperdoi }}">DOI</a></p>
         {% elsif page.citation %}
           <p style="font-size: smaller">{{ page.citation }}</p>
         {% elsif page.paperdoi %}
-          <p style="font-size: smaller"><a href="{{ page.paperdoi }}">DOI</a></p>
+          <p style="font-size: smaller"><a href="https://doi.org/{{ page.paperdoi }}">DOI</a></p>
         {% endif %}
-
+-->
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
