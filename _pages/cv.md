@@ -15,7 +15,7 @@ See my full CV [here](http://ThomasGaul.github.io/files/CV.pdf).
 * B.S. in Cognitive Science, Indiana University Bloomington, 2025.
 
 ## Honors and Awards
-* September 2024: **Murray Austin Goldstone Scholarship for Undergraduate Research**, *Indiana University Cognitive Science*.
+<!--* September 2024: **Murray Austin Goldstone Scholarship for Undergraduate Research**, *Indiana University Cognitive Science*.-->
 * April 2024: **Outstanding Contribution Award**, *Indiana University Cognitive Science*.
 * April 2023: **Robert J. Glushko Award for Outstanding Research in Cognitive Science**, *Indiana University Cognitive Science*.
 
