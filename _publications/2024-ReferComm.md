@@ -5,9 +5,9 @@ permalink: /publication/2024-ReferComm
 papertype: preprint
 excerpt: ""
 date: 2024-12-01
-status: In Review
+status: In Review at
 venue: 'Artificial Life'
-paperurl: 'http://ThomasGaul.github.io/files/Gaul_CognitiveDistinctions.pdf'
+paperurl: 'http://ThomasGaul.github.io/files/Gaul - Cognitive distinctions as a language for cognitive science.pdf'
 paperdoi: #URL
 authors: 'Gaul, T. M. and Izquierdo, I. J.'
 editors: #
@@ -15,7 +15,7 @@ volume: #
 issue: #
 pages: #
 publisher: #
-citation: 'Gaul, T. M. and Eduardo, I. J. (2024). Cognitive distinctions as a language for cognitive science: Comparing methods of description in a model of referential communication. In Review.'
+citation: 'Gaul, T. M. and Eduardo, I. J. (2024). Cognitive distinctions as a language for cognitive science: Comparing methods of description in a model of referential communication. <i>In Review</i>.'
 project: 'Distinctions'
 ---
 
