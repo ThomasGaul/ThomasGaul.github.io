@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-See my full CV [here](http://ThomasGaul.github.io/files/CV.pdf).
+See my full CV [here](http://ThomasGaul.github.io/files/Gaul-CV.pdf).
 
 ## Education
 * B.S. in Cognitive Science, Indiana University Bloomington, 2025.
@@ -24,8 +24,8 @@ See my full CV [here](http://ThomasGaul.github.io/files/CV.pdf).
 * Spring 2024 - Spring 2025: *Treasurer*. Students of Cognitive Science.
 
 ## Skills
-* Programming Languages: C++, Python, Wolfram Language, Java, Bash
-* Software: Linux, Mathematica, LaTeX, Inkscape
+* Programming Languages: Rust, C++, Wolfram Language, Python, Java, Bash
+* Software: Linux, Mathematica, LaTeX, Inkscape, Git, Visual Studio Code, Vim
 
 ## Publications
 {% for post in site.publications reversed %}

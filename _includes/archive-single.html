@@ -32,7 +32,7 @@
 	{% elsif post.papertype == 'conference' %}
 	<p>{{ post.authors }} ({{ post.date | date: "%Y" }}). <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>. In <i>{{ post.venue }}</i>, pages {{ post.pages }}. {{ post.publisher }}.</p>
 	{% elsif post.papertype == 'preprint' %}
-	<p>{{ post.authors }} ({{ post.date | date: "%Y" }}). <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>. {{ post.status }}.</p>
+	<p>{{ post.authors }} ({{ post.date | date: "%Y" }}). <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>. {{ post.status }} <i>{{ post.venue }}</i>.</p>
 	{% endif %}
     {% else %}
       <h2 class="archive__item-title" itemprop="headline">

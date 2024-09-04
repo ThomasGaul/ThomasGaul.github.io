@@ -21,7 +21,7 @@ repository               : "ThomasGaul/ThomasGaul.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "selfie.jpg"
   name             : "Thomas M. Gaul"
   pronouns         : # "" 
   bio              : "Undergraduate student studying Cognitive Science and Microbiology at Indiana University | Artificial Life and Theoretical Biology"
