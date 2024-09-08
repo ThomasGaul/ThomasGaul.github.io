@@ -3,10 +3,13 @@ _site/
 
 # Ignore the directory for local files during development
 local/
+*.sh
+*.txt
+images/*.xcf
 
 # Ignore the Gemfile that is generated
 Gemfile.lock
 
-# Ingore files created by npm
+# Ignore files created by npm
 node_modules
 package-lock.json
