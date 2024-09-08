@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2024-ReferComm
 papertype: preprint
 excerpt: ""
-date: 2024-12-01
+date: 2024-09-01
 status: In Review at
 venue: 'Artificial Life'
 paperurl: 'http://ThomasGaul.github.io/files/Gaul - Cognitive distinctions as a language for cognitive science.pdf'
