@@ -7,7 +7,7 @@ excerpt: ""
 date: 2024-09-01
 status: In Review at
 venue: 'Artificial Life'
-paperurl: 'http://ThomasGaul.github.io/files/Gaul - Cognitive distinctions as a language for cognitive science.pdf'
+paperurl: 'http://ThomasGaul.github.io/files/Gaul, Izquierdo - Cognitive distinctions as a language for cognitive science.pdf'
 paperdoi: #URL
 authors: 'Gaul, T. M. and Izquierdo, I. J.'
 editors: #
